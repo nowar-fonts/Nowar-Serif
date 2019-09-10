@@ -1,0 +1,20 @@
+## Interface: 80200
+
+## Title: Nowar Serif Typeface
+## Notes: Register Nowar Serif typeface to SharedMedia.
+## Title-zhCN: 有爱宋体
+## Notes-zhCN: 向 SharedMedia 注册有爱宋体字族。
+## Title-zhTW: 有愛明體
+## Notes-zhTW: 向 SharedMedia 登錄有愛明體字體。
+
+## Version: __REPLACE_IN_BUILD__VERSION__
+## Author: Cyano Hao
+## X-Category: Miscellaneous
+## X-Credits: This addon is derived from on SharedMediaAdditionalFont.
+
+## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
+
+Libs\LibStub\LibStub.lua
+
+Core.lua
+NowarSerifTypeface.lua
